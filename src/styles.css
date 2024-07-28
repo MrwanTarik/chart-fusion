@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #f7f7f7;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1086px;
+  margin: auto;
+}
+.chart-header {
+  font-size: 25px;
+  color: #000000;
+  line-height: 30px;
+}

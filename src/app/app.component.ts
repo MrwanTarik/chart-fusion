@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-
+import { ChartOneComponent } from './chart-one/chart-one.component';
+import { ChartTwoComponent } from "./chart-two/chart-two.component";
 @Component({
-  selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  imports: [ChartOneComponent, ChartTwoComponent],
 })
-export class AppComponent {
-  title = 'chart-fusion';
-}
+export class AppComponent {}
