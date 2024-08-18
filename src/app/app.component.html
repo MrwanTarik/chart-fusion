@@ -1,8 +1,15 @@
-<div class="row container">
-  <div class="col-12 mt-4">
+<div class="row container g-4">
+  <div class="col-12 mt-4 vh mb-5">
     <app-chart-one></app-chart-one>
   </div>
-  <div class="col-12 mt-4">
+  <div class="col-12 mt-4 vh mb-5">
     <app-chart-two></app-chart-two>
+  </div>
+  <div class="col-12 mt-4 vh mb-5">
+    @defer (on viewport) {
+    <app-chart-three></app-chart-three>
+    }@placeholder {
+    <div>Calendar placeholder</div>
+    }
   </div>
 </div>

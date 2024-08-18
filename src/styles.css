@@ -12,3 +12,10 @@ body {
   color: #000000;
   line-height: 30px;
 }
+
+.vh {
+  height: 50vh;
+}
+.header {
+  margin-top: 5rem !important;
+}
